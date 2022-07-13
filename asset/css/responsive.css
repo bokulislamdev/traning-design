@@ -1,0 +1,107 @@
+
+@media only screen and (max-width:1199px) {
+    .menubar > ul > li > a {
+	padding: 5px 5px;
+        margin: 0 1px;
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width:991px) {
+
+    .menubar > ul > li > a {
+        padding: 5px !important;
+    }
+
+    .menubar > ul > li > a.find-broker-btn {
+        padding: 10px 20px !important;
+    }
+
+    .contact-right {
+        padding-left: 0px !important;
+    }
+        header{
+        background-image: repeating-conic-gradient(white 0% 60%, white 60% 100%);
+    }
+    .home-slider .carousel-item img{
+        height: 430px;
+    }
+    .search-content label{
+        display: block;
+        padding: 0;
+    }
+    .search-content span{
+        padding-bottom: 10px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    .logo {
+        display: inline-block;
+    }
+
+    .sub-btn a span {
+        padding: 0 6px;
+    }
+
+    .sub-menu > a {
+        font-size: 14px;
+    }
+    .home-slider .carousel-item img{
+        height: 380px;
+    }
+    .search-content {
+	padding: 20px;
+    }
+    .service-details-img img {
+	padding-bottom: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width:575px) {
+    body {
+        font-size: 14px;
+    }
+
+    .logo a img {
+        width: 115px;
+        margin-right: 8px;
+    }
+
+    .footer-head h6 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .footer-head ul li a {
+        font-size: 14px;
+    }
+
+    .mobileAdd {
+        left: 0 !important;
+        width: 100%;
+    }
+    .logo i {
+	font-size: 18px;
+	margin-right: 5px;
+    }
+    .head-searchber-box input::placeholder{
+        font-size: 12px;
+    }
+    .head-searchber-box input {
+	padding-left: 30px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    .head-searchber-box input::placeholder{
+        font-size: 10px;
+    }
+    
+}

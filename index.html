@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are4u</title>
+    <!--    BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+
+    <!--    GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--    SLICK SLICER-->
+    <link rel="stylesheet" href="asset/css/slick-theme.css">
+    <link rel="stylesheet" href="asset/css/slick.css">
+    <!--    MAIN CSS-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+<body>
+
+
+
+    <!--    HEADER SECTION-->
+    <header class="py-2 py-lg-3">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <div class="logo d-flex align-items-center">
+                    <i class="fa fa-bars d-lg-none" onClick="mobileClick()"></i>
+
+                    <a href="#">
+                        <img src="asset/images/logo/logo.svg" alt="">
+                    </a>
+
+                </div>
+                <div class="menubar d-none d-lg-block">
+                    <ul>
+                        <li class="sub-btn button1">
+                            <a href="#">কোসসমূহ
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+
+                            <div class="sub-menu">
+                                <a href="#">বাংলা</a>
+                                <a href="#">ইংরেজি</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">আপকামিং লাইভ কোর্স</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="head-searchber flex-grow-1">
+                    <form action="#">
+                        <div class="head-searchber-box">
+                            <input type="text" placeholder="আপনার কাঙ্খিত কোসটি সার্চ করুন">
+                            <button>
+                                <i class="fa-regular fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="menubar d-none d-lg-block">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-regular fa-cart-shopping"></i>
+                                ৳ 0
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a href="#">ডেসবোের্ডে লগ-ইন</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <!--    HEADER SECTION END-->
+
+
+
+    <!--    MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="mobile-logo mb-3">
+                <a href="#">
+                    <img src="asset/images/logo/logo.svg" alt="mobile-logo">
+                </a>
+                <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+            </div>
+
+
+            <div class="accordion-item custom ">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            About Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Services
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Why Mokhls
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            FAQ
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Help
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Find Broker
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Sign up
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Sign In
+                        </button>
+                    </a>
+                </h2>
+            </div>
+
+            <!--
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        All Category
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Lip Gloss</a></li>
+
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Body Lotion</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Cream</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Garnier</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+-->
+
+
+        </div>
+
+    </div>
+    <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+    <!--    MOBILE MENU END-->
+
+    <!--   HOME SECTION-->
+    <div class="home-section">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 py-5">
+                    <div class="home-left">
+                        <h1>লক্ষ্য হোক <span>দক্ষ</span> হওয়া!</h1>
+                        <p>
+                            ‘সব সম্ভব’- এর এই যুগে আপনি কেনো ‘অসম্ভব’ এর নামতা আওড়াচ্ছেন? এখন ঘরে বসেই নিজের স্কিল ডেভেলপ করুন- সেরা এক্সপার্টদের কাছ থেকে!
+                        </p>
+                        <a href="#" class="custom-btn">সকল কোর্স</a>
+                    </div>
+                </div>
+                <div class="col-6 d-none d-md-block">
+                    <div class="home-right">
+                        <img src="asset/images/photos/home-bg.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   HOME SECTION END-->
+
+    <!--    RUN SECTOIN-->
+    <div class="run-section py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4>কেন আমরা সবার চেয়ে <span>এগিয়ে</span></h4>
+            </div>
+            <div class="row pt-5">
+                <div class="col-4 pb-4">
+                    <div class="run-box">
+                        <div class="run-image pb-4">
+                            <img src="asset/images/icons/run1.png" alt="">
+                        </div>
+                        <p>
+                            সফট-স্কিল বৃদ্ধি থেকে শুরু করে ক্যারিয়ার ডেভেলপমেন্ট- নিজেকে মানসম্পন্ন করে তোলার এ-টু-জেড সিলেবাস
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 pb-4">
+                    <div class="run-box">
+                        <div class="run-image pb-4">
+                            <img src="asset/images/icons/run2.png" alt="">
+                        </div>
+                        <p>
+                            সবচেয়ে দক্ষ প্রশিক্ষকগণ সবচেয়ে সহজ উপায়ে লেসন তৈরি করেন
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 pb-4">
+                    <div class="run-box">
+                        <div class="run-image pb-4">
+                            <img src="asset/images/icons/run3.png" alt="">
+                        </div>
+                        <p>
+                            মেধা যাচাইয়ের জন্য কুইজ ও এক্সামের ব্যবস্থা। কোর্স শেষে সনদ প্রদান।
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 pb-4">
+                    <div class="run-box run-comment d-flex align-items-center">
+                        <div class="run-image pb-4">
+                            <img src="asset/images/icons/run4.png" alt="">
+                        </div>
+                        <div>
+                            <h4>
+                                স্কিলড হওয়া যায় যখন তখন
+                            </h4>
+                            <p>
+                                প্রথাগতভাবে আমরা স্কুল-কলেজে গিয়ে আমাদের শিক্ষা গ্রহন করি। কিন্তু অনলাইন মাধ্যমের কল্যানে এখন সহজেই যেকোন সময়ে যেকোনো স্থান থেকে শুধুমাত্র ইলেকট্রনিক ডিভাইস ব্যবহারের মাধ্যমে আমাদের দক্ষ হয়ে উঠার সুযোগ অবারিত।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 pb-4">
+                    <div class="run-box run-comment d-flex align-items-center">
+                        <div class="run-image pb-4">
+                            <img src="asset/images/icons/run5.png" alt="">
+                        </div>
+                        <div>
+                            <h4>
+                                আন্তর্জাতিক মানের কোর্স বাংলাতেই
+                            </h4>
+                            <p>
+                                আমরা সাধারনত বিভিন্ন টিউটোরিয়ালগুলো অনলাইনে ইংরেজীতে পেয়ে থাকি। তবে ব্রাইটস্কিলস প্লাটফর্মে আমরা এখন আন্তর্জাতিক মানের কোর্স সহজে শিখতে পারছি। যার ফলে অনায়াসেই দক্ষ হওয়ার পথ প্রসারিত হচ্ছে।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    RUN SECTOIN END-->
+
+
+    <!--   HOME SECTION-->
+    <div class="home-section membersheep-section py-5">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-7 d-none d-md-block">
+                    <div class="home-right">
+                        <img src="asset/images/photos/membersheep-bg.png" alt="Image">
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 py-5">
+                    <div class="home-left">
+                        <h2>Membersheep <br> With Meaning</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa harum optio libero iure dolorum perspiciatis voluptas repellat quam eligendi assumenda sunt, accusantium similique praesentium earum beatae officiis, perferendis culpa.
+                        </p>
+                        <div class="button1">
+                            <a href="#" class="custom-btn">Brows Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--   HOME SECTION END-->
+
+    <!--    CATEGORY SECTION-->
+    <section class="category-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h4>
+                        বেছে নিন আপনার পছন্দের ক্যাটাগরি
+                    </h4>
+                </div>
+                <div class="category-row pt-5 justify-content-center">
+                    <div>
+                        <div class="category-box">
+                            <img src="asset/images/icons/category1.png" alt="Icons">
+                            <a href="#">ডিজাইন</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="category-box">
+                            <img src="asset/images/icons/category2.png" alt="Icons">
+                            <a href="#"> ডিজিটাল মার্কেটিং </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="category-box">
+                            <img src="asset/images/icons/category3.png" alt="Icons">
+                            <a href="#"> ওয়েব-প্রোগ্রামিং </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="category-box">
+                            <img src="asset/images/icons/category4.png" alt="Icons">
+                            <a href="#"> রোবটিক্স-অটোমেশন </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="category-box">
+                            <img src="asset/images/icons/category5.png" alt="Icons">
+                            <a href="#"> মাইক্রোসফট-অফিস </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="category-box">
+                            <img src="asset/images/icons/category6.png" alt="Icons">
+                            <a href="#"> ভাষা শিক্ষা </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="category-box">
+                            <img src="asset/images/icons/category7.png" alt="Icons">
+                            <a href="#"> 3D-ভিজুয়ালাইজেশন </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    CATEGORY SECTION END-->
+
+    <!--    START COURSE SECTION-->
+    <section class="start-course-section">
+        <div class="container">
+            <div class="start-course-round px-4 py-5">
+                <div class="row">
+                    <div class="section-title">
+                        <h4>
+                            কোর্স <span>শুরু</span> করার <span>প্রক্রিয়া</span> </h4>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-3">
+                        <div class="category-box">
+                            <img src="asset/images/icons/start1.svg" alt="Icons">
+                            <a href="#"> অ্যাকাউন্ট তৈরি করুন </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="category-box">
+                            <img src="asset/images/icons/start2.svg" alt="Icons">
+                            <a href="javascript:void(0)"> কোর্স সিলেক্ট করুন </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="category-box">
+                            <img src="asset/images/icons/start3.svg" alt="Icons">
+                            <a href="javascript:void(0)"> পছন্দের কোর্সটি কিনুন </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="category-box">
+                            <img src="asset/images/icons/start4.svg" alt="Icons">
+                            <a href="javascript:void(0)"> স্কিল অর্জন শুরু করুন </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--    START COURSE SECTION END-->
+
+
+    <!--    RUN SECTOIN-->
+    <div class="run-section py-5" style="background: var(--wc)">
+        <div class="container">
+            <div class="section-title">
+                <h4>কেন আমরা সবার চেয়ে <span>এগিয়ে</span></h4>
+            </div>
+            <div class="row pt-5">
+                <div class="col-4 pb-4">
+                    <div class="run-box run-comment d-flex">
+                        <div class="run-image student-comment-img pb-4">
+                            <img src="asset/images/photos/comment1.png" alt="">
+                        </div>
+                        <div>
+                            <div class="review-show pb-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h4>
+                                ‘‘এখন ফ্রিল্যান্সিং কাজ করছি’
+                            </h4>
+                            <p>
+                                ফ্রিল্যান্সিং নিয়ে আমার তেমন জানা ছিলো না। ব্রাইট স্কিলস এর Freelancing with Adobe Illustrator কোর্সটি করে ডিজাইন ও প্রজেক্ট সম্পর্কে ধারণা পেয়েছি। কোর্স শেষে অনলাইন মার্কেটপ্লেসে কাজ করার গাইডলাইন পেয়েছি।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-4 pb-4">
+                    <div class="run-box run-comment d-flex">
+                        <div class="run-image student-comment-img pb-4">
+                            <img src="asset/images/photos/comment2.jpg" alt="">
+                        </div>
+                        <div>
+                            <div class="review-show pb-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h4>
+                                ‘‘কম সময়ে মূল বিষয়ে শিখেছি ’’
+                            </h4>
+                            <p>
+                                আমি কয়েকটি লার্নিং প্লাটফর্মে ক্লাস করেছি অনেক সময় প্রাসঙ্গিক কথাকে অনেক দীর্ঘ সময় নিয়ে আলোচনা করায় মূল পয়েন্ট থেকে মনযোগ বিচ্যুত হয়েছে কিন্তু ব্রাইট স্কিলস এর কোর্সগুলো একদম মূল বিষয়ের উপর ফোকাস করে তৈরি করা হয়েছে।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-4 pb-4">
+                    <div class="run-box run-comment d-flex">
+                        <div class="run-image student-comment-img pb-4">
+                            <img src="asset/images/photos/comment3.jpg" alt="">
+                        </div>
+                        <div>
+                            <div class="review-show pb-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <h4>
+                               ‘‘আন্তর্জাতিকমানের কোর্স শিখেছি বাংলাতে ’
+                            </h4>
+                            <p>
+                                আমরা সাধারনত বিভিন্ন টিউটোরিয়ালগুলো অনলাইনে ইংরেজিতে পেয়ে থাকি। তবে ব্রাইট স্কিলস প্লাটফর্মে আমি এখন আন্তর্জাতিক মানের কোর্স শিখতে পারছি সহজেই।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    RUN SECTOIN END-->
+    
+    <!--    PARTNER SECTION-->
+    <div class="section partner-section py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4>আমাদের পার্টনারসমূহ</h4>
+            </div>
+            <div class="row pt-5">
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner1.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner2.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner3.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner4.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner5.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner6.png" alt="image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--    PARTNER SECTION END-->
+
+
+
+    <!--    BRAND SECTION-->
+    <!--
+    <div class="brand-section py-5">
+        <div class="container">
+            <div class="brand-head">
+                <p>our clients</p>
+                <h4>client that trust our services</h4>
+            </div>
+            <div class="picture_slider pt-3">
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/1.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/2.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/3.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/4.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/5.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/6.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/7.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/8.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/9.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/10.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/11.jpg" alt="Image">
+                    </a>
+                </div>
+                <div class="brand-box">
+                    <a href="#">
+                        <img src="asset/images/brands/12.jpg" alt="Image">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+    <!--    BRAND SECTION END-->
+
+
+    <!--    FOOTER-->
+    <footer class="pt-5">
+        <div class="container">
+            <div class="footer-main pb-4">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Company</h6>
+                            <ul>
+                                <li>
+
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Carrer</a>
+                                </li>
+                                <li>
+                                    <a href="#">Press</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Affiliates</a>
+                                </li>
+                                <li>
+                                    <a href="#">Partnerships</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Community</h6>
+                            <ul>
+                                <li>
+
+                                    <a href="#">Teams Plans</a>
+                                </li>
+                                <li>
+                                    <a href="#">Refar A Friend</a>
+                                </li>
+                                <li>
+                                    <a href="#">Limited Membersheep</a>
+                                </li>
+                                <li>
+                                    <a href="#">Scholarships</a>
+                                </li>
+                                <li>
+                                    <a href="#">Free Classes</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Teaching</h6>
+
+                            <ul>
+                                <li>
+
+                                    <a href="#">Become A Teacher</a>
+                                </li>
+                                <li>
+                                    <a href="#">Teacher Help Center</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Mobile</h6>
+
+                            <div class="pb-2">
+                                <a href="#">
+                                    <img src="asset/images/icons/app-store.png" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="asset/images/icons/google-play.png" alt="">
+                                </a>
+                            </div>
+                            <div class="footer-icons pt-3">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f" style="background: #384F83;"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in" style="background: #0089CF;"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube" style="background: #FF3A00;"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright py-4">
+                <a href="javascript:void(0)">@skillshare, Inc. 2022</a>
+                <a href="#">Helps</a>
+                <a href="#">Privacy</a>
+                <a href="#">Teams</a>
+            </div>
+        </div>
+    </footer>
+    <!--    FOOTER END-->
+
+
+
+
+
+
+
+
+
+
+    <!--    JQUERY GOOGLE HOST-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    BOOSTRAP-->
+
+    <!--    slick slider-->
+    <script src="asset/js/slick.min.js"></script>
+    <!--    boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script>
+        //        MOBILE MENU
+        function mobileClick() {
+            $("#mobile-menu").toggleClass('mobileAdd');
+            $("#mobileOverlay").toggleClass('mobile-overlay');
+        }
+        //        MOBILE MENU END
+
+
+        $('.counter').each(function() {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+
+            $({
+                countNum: $this.text()
+            }).animate({
+                countNum: countTo
+            }, {
+                duration: 6000,
+                easing: 'linear',
+                step: function() {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                    $this.text(this.countNum);
+                }
+            });
+        });
+
+
+
+        // slick slider
+        $('.picture_slider').slick({
+            slidesToShow: 6,
+            slidesToScroll: 2,
+            autoplay: true,
+            dots: true,
+            infinite: false,
+            autoplaySpeed: 2000,
+            nextArrow: $('.next'),
+            prevArrow: $('.prev'),
+            arrows: true,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+    </script>
+</body>
+
+</html>

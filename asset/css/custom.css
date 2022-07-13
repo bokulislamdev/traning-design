@@ -1,0 +1,154 @@
+@font-face{
+    src : url(../font/Ruposhi Bangla Regular.ttf);
+    font-family: fontp;
+}
+
+:root {
+    --pc: #575757;
+    --pc2: #414141;
+    --sc: rgb(244, 138, 1);
+    --wc: #ffffff;
+    --bc: #000000;
+    --gc: rgb(131, 131, 131);
+    --bg: linear-gradient(122.22deg, rgba(243, 146, 0, 0) -28.06%, rgba(248, 54, 0, 0.1) 102.93%);
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    
+    font-family: fontp;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--pc);
+/*    font-family: 'Hind Siliguri', sans-serif;*/
+/*    font-family: 'Roboto', sans-serif;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    line-height: 24px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pc);
+    display: inline-block;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--pc);
+}
+
+button {
+    border: none;
+}
+
+/*button1*/
+.button1 a{
+    background: #495CA9 !important;
+    border: 2px solid #495CA9 !important;
+}
+.button1 a:hover i{
+    color: #495CA9 !important;
+}
+.button1 a:hover{
+    background: var(--wc) !important;
+    color: #495CA9 !important;
+}
+.button1 .sub-menu a{
+    color: var(--wc) !important;
+}
+.button1 .sub-menu a:hover{
+    color: #495CA9 !important;
+    background: var(--wc)!important;
+}
+/*button2*/
+.button2 a{
+    background: #CE288E !important;
+    border: 2px solid #CE288E !important;
+}
+
+.button2 a:hover{
+    background: var(--wc) !important;
+    color: #CE288E !important;
+}
+
+
+/*custom-btn*/
+.custom-btn{
+        color: var(--wc);
+    background-image: linear-gradient(122.33deg, #F39200 0%, #F83600 102.08%);
+    font-size: 18px;
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 2px solid var(--sc);
+    transition: .3s;
+}
+.custom-btn:hover{
+    color: var(--sc);
+    background: var(--wc);
+}
+/*
+.custom-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+}
+
+.custom-row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+*/
+
+.bottom-border{
+    border-bottom: 1px solid var(--gc);
+}
+.top-border{
+    border-top: 1px solid var(--gc);
+}
+.section-title{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-title h4 span{
+    color: var(--sc);
+}
+.section-title h4{
+    font-size: 38px;
+    line-height: 47px;
+    text-align: center;
+    max-width: 800px;
+    color: #232222;
+}
