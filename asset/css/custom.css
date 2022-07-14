@@ -114,6 +114,12 @@ button {
     color: var(--sc);
     background: var(--wc);
 }
+.stretched-link{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
 /*
 .custom-row {
     display: -webkit-box;

@@ -18,23 +18,6 @@
         padding: 10px 20px !important;
     }
 
-    .contact-right {
-        padding-left: 0px !important;
-    }
-        header{
-        background-image: repeating-conic-gradient(white 0% 60%, white 60% 100%);
-    }
-    .home-slider .carousel-item img{
-        height: 430px;
-    }
-    .search-content label{
-        display: block;
-        padding: 0;
-    }
-    .search-content span{
-        padding-bottom: 10px;
-        display: block;
-    }
 }
 
 @media only screen and (max-width:767px) {
@@ -50,15 +33,7 @@
     .sub-menu > a {
         font-size: 14px;
     }
-    .home-slider .carousel-item img{
-        height: 380px;
-    }
-    .search-content {
-	padding: 20px;
-    }
-    .service-details-img img {
-	padding-bottom: 10px;
-    }
+    
 
 
 }
