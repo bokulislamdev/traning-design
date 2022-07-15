@@ -114,6 +114,15 @@ button {
     color: var(--sc);
     background: var(--wc);
 }
+.custom-btn.bg-revarge{
+    color: var(--sc);
+    background: var(--wc);
+}
+.custom-btn.bg-revarge:hover{
+    color: var(--wc);
+    background-image: linear-gradient(122.33deg, #F39200 0%, #F83600 102.08%);
+}
+
 .stretched-link{
     position: absolute;
     height: 100%;
