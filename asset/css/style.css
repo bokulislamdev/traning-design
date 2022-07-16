@@ -1509,3 +1509,188 @@ footer {
 }
 
 /*PRODUCT DETAILS END*/
+
+/*COURSE ENROLL PAGE*/
+.dashboard-head{
+    background: #F6AC3F;
+    color: var(--wc);
+}
+.dashboard-head h6{
+    font-size: 20px;
+}
+.dashboard-head h6 span{
+    font-size: 13px;
+     font-family: fontp;
+    margin-left: 10px;
+}
+.dashboard-head .progress{
+    height: 8px;
+}
+.dashboard-head .progress .progress-bar{
+    background: #0D6EFD !important;
+}
+.enroll-tabls .nav-link{
+    color: var(--gc);
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 15px;
+}
+.enroll-tabls .nav-link.active{
+    background: none;
+    color: var(--bc);
+}
+.course-overview h6{
+    color: var(--pc);
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+.course-overview p{
+    font-size: 16px;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif;
+}
+.course-overview-table td{
+    color: var(--pc);
+    font-family: 'Roboto', sans-serif;
+}
+.course-overview-table td li{
+    list-style: none;
+}
+.enroll-instractor img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.enroll-instractor h6{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.enroll-instractor p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+.enroll-instractor a i{
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--wc);
+    background: var(--pc);
+    margin-right: 5px;
+}
+.enroll-right .nav-item{
+    width: 50%;
+}
+.enroll-right .nav-item button{
+    display: block;
+    width: 100%;
+    color: var(--gc);
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+}
+.enroll-right .nav-item button i{
+    margin-right: 8px;
+}
+.enroll-right .nav-item button.active{
+    background: #F29200;
+}
+.enroll-right{
+    position: sticky;
+    top: 100px;
+}
+.complete-message{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.complete-message i{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: var(--wc);
+    font-size: 25px;
+    background: #8AAE57;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.complete-message h6{
+    font-size: 25px;
+    color: var(--sc);
+    padding: 10px 0;
+}
+.review-submit-box{
+    max-width: 400px;
+    margin: 0 auto;
+}
+/*star rating*/
+.review-submit-box input {
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+/*  position: absolute !important;*/
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  opacity: 0;
+}
+
+.review-submit-box label {
+  position: relative;
+  float: left;
+  color: #C8C8C8;
+}
+
+.review-submit-box label:before {
+  margin: 5px;
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 1.5em;
+  color: #ccc;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.review-submit-box input:checked ~ label:before {
+  color: #FFC107;
+}
+
+.review-submit-box label:hover ~ label:before {
+  color: #ffdb70;
+}
+
+.review-submit-box label:hover:before {
+  color: #FFC107;
+}
+/*star rating end */
+.review-submit-box textarea{
+    width: 100%;
+    height: 80px;
+}
+.review-submit-box h6{
+    font-weight: 600;
+    font-size: 20px;
+}
+.review-submit-box span{
+    font-weight: 500;
+}
+.review-submit-box textarea {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+}
+.review-submit-box textarea::placeholder{
+    font-weight: 500;
+    color: #cccccc;
+}
+/*COURSE ENROLL END*/

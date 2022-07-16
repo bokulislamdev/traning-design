@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightSkills</title>
+    <!--    BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+
+    <!--    GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--    SLICK SLICER-->
+    <link rel="stylesheet" href="asset/css/slick-theme.css">
+    <link rel="stylesheet" href="asset/css/slick.css">
+    <!--    MAIN CSS-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+<body>
+
+
+    <!--    HEADER SECTION-->
+    <header class="py-2 py-lg-3">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <div class="logo d-flex align-items-center">
+                    <i class="fa fa-bars d-lg-none" onClick="mobileClick()"></i>
+
+                    <a href="#">
+                        <img src="asset/images/logo/logo.svg" alt="">
+                    </a>
+
+                </div>
+                <div class="menubar d-none d-lg-block">
+                    <ul>
+                        <li class="sub-btn button1">
+                            <a href="#">কোসসমূহ
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+
+                            <div class="sub-menu">
+                                <a href="#">বাংলা</a>
+                                <a href="#">ইংরেজি</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">আপকামিং লাইভ কোর্স</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="head-searchber flex-grow-1">
+                    <form action="#">
+                        <div class="head-searchber-box">
+                            <input type="text" placeholder="আপনার কাঙ্খিত কোসটি সার্চ করুন">
+                            <button>
+                                <i class="fa-regular fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="menubar d-none d-lg-block">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-regular fa-cart-shopping"></i>
+                                ৳ 0
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a href="#">ডেসবোের্ডে লগ-ইন</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <!--    HEADER SECTION END-->
+
+
+
+    <!--    MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="mobile-logo mb-3">
+                <a href="#">
+                    <img src="asset/images/logo/logo.svg" alt="mobile-logo">
+                </a>
+                <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+            </div>
+
+
+            <div class="accordion-item custom ">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            About Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Services
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Why Mokhls
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            FAQ
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Help
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Find Broker
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Sign up
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Sign In
+                        </button>
+                    </a>
+                </h2>
+            </div>
+
+            <!--
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        All Category
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Lip Gloss</a></li>
+
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Body Lotion</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Cream</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Garnier</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+-->
+
+
+        </div>
+
+    </div>
+    <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+    <!--    MOBILE MENU END-->
+
+    <!--    DASHBOARD HEAD-->
+    <section class="dashboard-head py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2>লার্নিং ড্যাসবোর্ড</h2>
+                <div>
+                    <h6>প্রসেস <span>২০ থেকে ১৬ টি লেসন দেখেছেন</span></h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    DASHBOARD HEAD END-->
+
+    <!--    COURSE ENROLL-->
+    <section class="course-enroll py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-8">
+                    <div class="enroll-video">
+                        <video controls style="width: 100%; height: auto">
+                            <source src="asset/images/videos/video.mp4" type="video/mp4">
+
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+
+
+                    <div class="enroll-tabls pt-4">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Overview</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Nots</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Announcements</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-review-tab" data-bs-toggle="pill" data-bs-target="#pills-review" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Reviews</button>
+                            </li>
+
+
+                        </ul>
+                        <div class="underline-cat">
+                            <div class="sub-underline"></div>
+                        </div>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                <div class="course-overview pt-5">
+                                    <h6>About This Course</h6>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, aspernatur eos pariatur rem quasi aperiam!
+                                    </p>
+                                    <div class="course-overview-table">
+                                        <table class="table">
+
+                                            <tbody>
+                                                <tr>
+
+                                                    <td>By The Numbers</td>
+                                                    <td>
+                                                        <li>
+                                                            Skills Lavel: Beginning label
+                                                        </li>
+                                                        <li>Student: 464646</li>
+                                                        <li>Caption : Yes</li>
+                                                    </td>
+                                                    <td>
+                                                        Lactures: 7.
+                                                        Videos: 2.5 hours
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>Features</td>
+                                                    <td colspan="2">
+                                                        Available on <a href="#">IOS</a>
+                                                        and
+                                                        <a href="#">Android</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Description</td>
+                                                    <td colspan="2">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse reprehenderit vitae, pariatur, libero eaque dolores.
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Instructior</td>
+                                                    <td colspan="2" class="enroll-instractor">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <img src="asset/images/photos/comment1.png" alt="">
+                                                            </div>
+                                                            <div>
+                                                                <h6>Md Boku Islam</h6>
+                                                                <p>Web Design Course</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="py-3">
+                                                            <a href="#">
+                                                                <i class="fa-brands fa-facebook-f"></i>
+                                                            </a>
+                                                            <a href="#">
+                                                                <i class="fa-brands fa-youtube"></i>
+                                                            </a>
+                                                            <a href="#">
+                                                                <i class="fa-brands fa-linkedin-in"></i>
+                                                            </a>
+                                                        </div>
+                                                        <div>
+                                                            <p>Hi I am bokul islam</p>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae neque dicta nemo laboriosam, eveniet itaque.</p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+                            <div class="tab-pane fade" id="pills-review" role="tabpanel" aria-labelledby="pills-review-tab" tabindex="0">..as.</div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <div class="enroll-right">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-lession-tab" data-bs-toggle="pill" data-bs-target="#pills-lession" type="button" role="tab" aria-controls="pills-lession" aria-selected="true">লেসন</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-certificate-tab" data-bs-toggle="pill" data-bs-target="#pills-certificate" type="button" role="tab" aria-controls="pills-certificate" aria-selected="false"><i class="fa-regular fa-lock-keyhole"></i>সার্টিফিকেট</button>
+                            </li>
+
+                        </ul>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-lession" role="tabpanel" aria-labelledby="pills-lession-tab" tabindex="0">
+                                <div class="cariculam-box pt-4">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Course Introduction
+                                                    <span>১ লেসন</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample" style="">
+                                                <div class="accordion-body cariculam-accordion-body">
+                                                    <ul>
+                                                        <div class="d-flex py-2 align-items-center">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <li>
+                                                                ১। Introducing Vector Graphics
+                                                            </li>
+                                                        </div>
+
+                                                        <div class="d-flex py-2 align-items-center">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <li>
+
+                                                                ২। Object Shape creation on using basic shapes and pen tool
+                                                            </li>
+                                                        </div>
+                                                        <div class="d-flex py-2 align-items-center">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <li>
+
+                                                                ৩। Fill, Stroke and Applying Color
+                                                            </li>
+                                                        </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    Introducing Illustrator
+                                                    <span>৫ লেসন</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body cariculam-accordion-body">
+                                                    <ul>
+                                                        <div class="d-flex py-2 align-items-center">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <li>
+                                                                ১। Introducing Vector Graphics
+                                                            </li>
+                                                        </div>
+
+                                                        <div class="d-flex py-2 align-items-center">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <li>
+
+                                                                ২। Object Shape creation on using basic shapes and pen tool
+                                                            </li>
+                                                        </div>
+                                                        <div class="d-flex py-2 align-items-center">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <li>
+
+                                                                ৩। Fill, Stroke and Applying Color
+                                                            </li>
+                                                        </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Color Gradient Object Transfer
+                                                    <span>৩ লেসন</span>
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body cariculam-accordion-body">
+                                                    <ul>
+                                                        <div class="d-flex py-2 align-items-center">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <li>
+                                                                ১। Introducing Vector Graphics
+                                                            </li>
+                                                        </div>
+
+                                                        <div class="d-flex py-2 align-items-center">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <li>
+
+                                                                ২। Object Shape creation on using basic shapes and pen tool
+                                                            </li>
+                                                        </div>
+                                                        <div class="d-flex py-2 align-items-center">
+                                                            <i class="fa-solid fa-circle-play"></i>
+                                                            <li>
+
+                                                                ৩। Fill, Stroke and Applying Color
+                                                            </li>
+                                                        </div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-certificate" role="tabpanel" aria-labelledby="pills-certificate-tab" tabindex="0">...</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    COURSE ENROLL END-->
+
+
+    <!--    FOOTER-->
+    <footer class="pt-5">
+        <div class="container">
+            <div class="footer-main pb-4">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Company</h6>
+                            <ul>
+                                <li>
+
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Carrer</a>
+                                </li>
+                                <li>
+                                    <a href="#">Press</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Affiliates</a>
+                                </li>
+                                <li>
+                                    <a href="#">Partnerships</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Community</h6>
+                            <ul>
+                                <li>
+
+                                    <a href="#">Teams Plans</a>
+                                </li>
+                                <li>
+                                    <a href="#">Refar A Friend</a>
+                                </li>
+                                <li>
+                                    <a href="#">Limited Membersheep</a>
+                                </li>
+                                <li>
+                                    <a href="#">Scholarships</a>
+                                </li>
+                                <li>
+                                    <a href="#">Free Classes</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Teaching</h6>
+
+                            <ul>
+                                <li>
+
+                                    <a href="#">Become A Teacher</a>
+                                </li>
+                                <li>
+                                    <a href="#">Teacher Help Center</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Mobile</h6>
+
+                            <div class="pb-2">
+                                <a href="#">
+                                    <img src="asset/images/icons/app-store.png" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="asset/images/icons/google-play.png" alt="">
+                                </a>
+                            </div>
+                            <div class="footer-icons pt-3">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f" style="background: #384F83;"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in" style="background: #0089CF;"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube" style="background: #FF3A00;"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright py-4">
+                <a href="javascript:void(0)">@skillshare, Inc. 2022</a>
+                <a href="#">Helps</a>
+                <a href="#">Privacy</a>
+                <a href="#">Teams</a>
+            </div>
+        </div>
+    </footer>
+    <!--    FOOTER END-->
+
+
+
+    <!--    JQUERY GOOGLE HOST-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    BOOSTRAP-->
+
+    <!--    slick slider-->
+    <script src="asset/js/slick.min.js"></script>
+    <!--    boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script>
+        //        MOBILE MENU
+        function mobileClick() {
+            $("#mobile-menu").toggleClass('mobileAdd');
+            $("#mobileOverlay").toggleClass('mobile-overlay');
+        }
+        //        MOBILE MENU END
+
+
+
+        // slick slider
+        $('.lifestyle_slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            dots: true,
+            infinite: false,
+            autoplaySpeed: 2000,
+            arrows: true,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+
+
+        $('.course1_slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            dots: true,
+            infinite: false,
+            autoplaySpeed: 2000,
+            nextArrow: $('.course_next'),
+            prevArrow: $('.course_prev'),
+            arrows: true,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+    </script>
+</body>
+
+</html>
