@@ -442,8 +442,9 @@ header .fa-bars {
 .lifestyle .slick-dots li.slick-active button {
     background: #cccccc;
 }
-.course_next{
-    
+
+.course_next {
+
     position: absolute;
     top: 30%;
     right: -10px;
@@ -458,10 +459,12 @@ header .fa-bars {
     z-index: 2;
     font-size: 18px;
 }
-.course-slider{
+
+.course-slider {
     position: relative;
 }
-.course_prev{
+
+.course_prev {
     position: absolute;
     top: 30%;
     left: -10px;
@@ -746,39 +749,45 @@ header .fa-bars {
 /*COURSE SECTION END*/
 
 /*PAYMENT*/
-.payment-section{
+.payment-section {
     background: #E1E1E1;
 }
-.payment-section .after-line{
+
+.payment-section .after-line {
     content: "";
     width: 2px;
     height: 40px;
     background: #125EAA;
 }
-.payment-section p{
+
+.payment-section p {
     font-size: 12px;
     margin: 0;
     padding: 0;
 }
-.payment-section h6{
+
+.payment-section h6 {
     font-size: 12px;
     margin: 0;
     padding: 0;
     color: #125EAA;
 }
-.payment-section h5{
+
+.payment-section h5 {
     font-size: 12px;
     margin: 0;
     padding: 0;
     color: var(--wc);
     background: #125EAA;
     line-height: 15px;
-    
+
 }
-.payment-section img{
+
+.payment-section img {
     height: 40px;
     width: auto;
 }
+
 /*PAYMENT END*/
 
 /*FOOTER*/
@@ -900,28 +909,33 @@ footer {
 /*FOOTER END*/
 
 /*CATEGORY PAGE*/
-.page-header{
+.page-header {
     background: #D1334A;
 }
-.page-header H2{
+
+.page-header H2 {
     font-size: 40px;
     line-height: 52px;
 }
-.sub-cat-btn a{
+
+.sub-cat-btn a {
     background: var(--wc);
     color: var(--pc);
     border: 1px solid var(--wc);
     margin-right: 5px;
 }
-.page-header p{
+
+.page-header p {
     max-width: 750px;
     line-height: 30px;
 }
-.sub-cat-btn a:hover{
+
+.sub-cat-btn a:hover {
     color: var(--pc);
 }
+
 /*course category*/
-.nav-link.course-cat-btn{
+.nav-link.course-cat-btn {
     font-size: 18px;
     font-family: 'Hind Siliguri', sans-serif;
     padding: 10px 20px;
@@ -932,12 +946,14 @@ footer {
     background: #CCCCCC;
     margin-right: 10px;
 }
-.nav-link.course-cat-btn.active{
-    
+
+.nav-link.course-cat-btn.active {
+
     color: #DF6812;
     background: #FCEBD2;
 }
-.underline-cat{
+
+.underline-cat {
     content: "";
     height: 1px;
     width: 100%;
@@ -945,7 +961,8 @@ footer {
     display: block;
     position: relative;
 }
-.underline-cat .sub-underline{
+
+.underline-cat .sub-underline {
     position: absolute;
     left: 0;
     top: 0;
@@ -954,23 +971,27 @@ footer {
     width: 120px;
     background: var(--pc);
 }
+
 /*product category*/
-.category-left{
+.category-left {
     border: 2px solid #d0c9ff;
     border-radius: 10px;
     padding: 15px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.category-left .accordion .accordion-item{
+
+.category-left .accordion .accordion-item {
     border: none;
     border-bottom: 1px solid #cccccc;
     padding: 10px 0;
 
 }
-.category-left .accordion .accordion-item:last-child{
+
+.category-left .accordion .accordion-item:last-child {
     border-bottom: none;
 }
-.category-left .accordion-button{
+
+.category-left .accordion-button {
     border: none;
     box-shadow: none;
     color: var(--pc);
@@ -978,17 +999,21 @@ footer {
     font-size: 20px;
     padding: 0;
 }
-.category-left .accordion-button:not(.collapsed){
+
+.category-left .accordion-button:not(.collapsed) {
     background: none;
     padding: 0;
 }
-.category-left .accordion-button:not(.collapsed){
+
+.category-left .accordion-button:not(.collapsed) {
     color: var(--pc);
 }
-.category-left .accordion-body{
+
+.category-left .accordion-body {
     padding: 10px 0;
 }
-.category-left .accordion-button:not(.collapsed)::after{
+
+.category-left .accordion-button:not(.collapsed)::after {
     background: #EBEEFF;
     height: 35px;
     width: 35px;
@@ -999,7 +1024,8 @@ footer {
     background-position: center;
     transform: rotate(0deg);
 }
-.accordion-button.collapsed::after{
+
+.category-left .accordion-button.collapsed::after {
     background: #EBEEFF;
     height: 35px;
     width: 35px;
@@ -1009,66 +1035,81 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
-.search-category > div{
+
+.search-category > div {
     display: flex;
     align-items: center;
     padding: 8px 0;
 }
-.search-category > div > label{
+
+.search-category > div > label {
     font-size: 16px;
     color: var(--bc);
     font-weight: 500;
 }
-.search-category    input[type='checkbox']{
+
+.search-category input[type='checkbox'] {
     height: 18px;
     width: 18px;
     margin-right: 10px;
 }
+
 /*.category-right*/
-.row-course-box.course-box .course-img{
+.row-course-box.course-box .course-img {
     margin-right: 10px;
     margin-bottom: 0;
 
 }
-.row-course-box.course-box .course-img{
+
+.row-course-box.course-box .course-img {
     width: 380px;
-    
+
 
 }
-.course-box p{
+
+.course-box p {
     padding: 0 10px;
     margin: 0;
     padding-top: 20px;
 }
-.course-box p a{
+
+.course-box p a {
     color: #125EAA;
 }
-.course-box .offer{
+
+.course-box .offer {
     color: var(--sc);
 }
-.row-course-box.course-box{
+
+.row-course-box.course-box {
     min-height: inherit;
     box-shadow: none;
     padding-bottom: 0;
 }
-.course-box.row-course-box .sell-price{
+
+.course-box.row-course-box .sell-price {
     font-size: 15px;
 }
+
 .course-box.row-course-box {
     overflow: inherit;
 }
-.course-box.row-course-box .previous-price{
+
+.course-box.row-course-box .previous-price {
     font-size: 15px;
 }
-.course-box.row-course-box .offer{
+
+.course-box.row-course-box .offer {
     font-size: 15px;
 }
+
 /*course ovarlay*/
-.row-course-box.course-box:hover .course-overlay{
+.row-course-box.course-box:hover .course-overlay {
     opacity: 1;
     visibility: visible;
 }
-.course-overlay{
+
+.course-overlay {
     position: absolute;
     top: 50%;
     right: 0;
@@ -1082,41 +1123,49 @@ footer {
     visibility: hidden;
     transition: .4s;
     z-index: 1;
- 
-    
+
+
 }
-.course-overlay h4{
+
+.course-overlay h4 {
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
-.course-overlay p{
+
+.course-overlay p {
     margin: 0;
     padding: 5px 0;
     font-family: 'Hind Siliguri', sans-serif;
 }
-.course-overlay p a{
+
+.course-overlay p a {
     color: var(--pc)
 }
-.course-overlay b{
+
+.course-overlay b {
     font-size: 14px;
     color: var(--sc);
     font-family: 'Hind Siliguri', sans-serif;
 }
-.text-simple{
+
+.text-simple {
     font-family: fontp !important;
 }
-.course-overlay ul li{
+
+.course-overlay ul li {
     position: relative;
     padding-left: 30px;
     padding-bottom: 10px;
 }
-.course-overlay ul li i{
+
+.course-overlay ul li i {
     position: absolute;
     left: 3px;
     top: 4px;
 }
-.clip-path-box{
+
+.clip-path-box {
     position: absolute;
     top: 50%;
     left: -34px;
@@ -1128,8 +1177,335 @@ footer {
     clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 0% 50%);
 
 }
+
 /*CATEGORY PAGE END*/
 
+/*PRODUCT DETAILS*/
+.video-section{
+    background-image: conic-gradient(#D1334A 0deg, #D1334A 90deg, #ffffff 90deg, #ffffff 180deg, #ffffff 180deg, #ffffff 270deg, #D1334A 270deg);
+}
+.video-box{
+    text-align: center;
+}
+.video-box video{
+    height: auto;
+    width: 80%;
+}
+.product-details-left h6 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #DF6812;
+}
 
+.product-details-left h2 {
+    font-size: 38px;
+    line-height: 47px;
+    color: #232222;
+}
 
+.product-details-left h4 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #232222;
+}
 
+.product-details-left p {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.product-details-left ul li {
+    position: relative;
+    padding: 7px 0;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.product-details-left ul li i {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: #8d8d8d;
+}
+
+.product-details-right {
+    position: sticky;
+    top: 100px;
+}
+
+.product-details-review i {
+    color: #EC9512;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.product-details-right ul li {
+    font-size: 18px;
+    line-height: 22px;
+    color: #414141;
+    list-style: inside;
+    padding: 8px 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.product-details-right h2 {
+    font-size: 30px;
+    font-family: fontp;
+    text-align: center;
+}
+
+/*certificate*/
+.certificate-section img {
+    width: 100%;
+}
+
+.certificate-section h3 {
+    font-size: 30px;
+    line-height: 38px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #232222;
+}
+
+.certificate-section p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #575757;
+}
+
+/*course cariculam*/
+.course-cariculam {
+    background: #FFF8F6;
+}
+
+.caricualm-count {
+    padding: 8px 16px;
+    margin-left: 10px;
+    background: #E7E4DC;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.caricualm-count h5 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    font-family: fontp;
+}
+
+.caricualm-count p {
+    font-size: 16px;
+    color: var(--bc);
+    margin: 0;
+    padding: 0;
+}
+
+.cariculam-box .accordion-item {
+    border: none;
+    padding: 5px 0;
+}
+
+.cariculam-box .accordion-button {
+    border: none;
+    outline: none;
+    background: var(--wc);
+    box-shadow: 0.3125rem 0.3125rem 2.5rem rgb(0 0 0 / 6%);
+    font-size: 16px;
+    color: #232222;
+    font-weight: 500;
+    font-family: fontp;
+}
+
+.cariculam-box .accordion-button span {
+    color: #DF6812;
+    margin-left: 10px;
+}
+
+.cariculam-accordion-body ul li {
+    padding-left: 15px;
+    font-size: 16px;
+    color: #414141;
+}
+
+.accordion-body i {
+    margin-bottom: 3px;
+    color: #A7C87D;
+    font-size: 18px;
+}
+
+.resource-box {
+    box-shadow: 0.3125rem 0.3125rem 2.5rem rgb(0 0 0 / 6%);
+    border-radius: 15px;
+    padding: 10px;
+    background: var(--wc);
+    height: 100%;
+}
+
+.resource-box h2 {
+    font-size: 30px;
+    line-height: 38px;
+    color: #232222;
+    text-align: center;
+}
+
+/*course requirment*/
+.course-req-box {
+    max-width: 900px;
+}
+
+.course-req-box h4 {
+    font-size: 30px;
+    line-height: 38px;
+    color: #232222;
+}
+
+.course-req-box p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/*about instractor*/
+.about-instractor h4 {
+    font-size: 28px;
+    line-height: 30px;
+    color: var(--bc);
+}
+
+.about-instractor img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.about-instractor h6 {
+    font-size: 20px;
+    font-weight: 28px;
+    color: var(--pc);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-instractor h5 {
+    font-size: 18px;
+    font-weight: 28px;
+    color: var(--gc);
+    margin: 0;
+    padding-top: 5px;
+
+}
+
+.about-instractor-box {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.instractor-rading .rating i {
+    color: #EC9512;
+    font-size: 14px;
+    margin: 0;
+    padding: 0
+}
+
+.instractor-rading b {
+    color: var(--pc);
+    font-weight: 500px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+}
+
+.instractor-rading span {
+    color: #9f9f9f;
+    font-weight: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rading-right-box {
+    margin-left: 40px;
+}
+
+.instractor-rading {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    border-top: none;
+}
+
+/*review*/
+.review-head h3 {
+    font-size: 28px;
+    color: var(--bc);
+}
+
+.review-head h3 i {
+    font-size: 18px;
+    color: #EC9512;
+}
+
+.review-box .name-round {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    background: var(--bc);
+    color: var(--wc);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.review-box h6 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--bc);
+}
+
+.review-box .review i {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #EC9512;
+}
+
+.review-box .review span {
+    color: #959595;
+}
+
+.review-box p {
+    font-size: 18px;
+}
+
+.review-like a i {
+    color: var(--pc);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid var(--pc);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 18px;
+
+}
+
+.review-like a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #125EAA;
+    text-decoration: underline;
+}
+
+.review-box {
+    max-width: 800px;
+    border-bottom: 1px solid #cccccc;
+}
+.review-box:last-child{
+    border-bottom: none;
+}
+
+/*PRODUCT DETAILS END*/
