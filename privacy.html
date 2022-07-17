@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightSkills</title>
+    <!--    BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+
+    <!--    GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--    SLICK SLICER-->
+    <link rel="stylesheet" href="asset/css/slick-theme.css">
+    <link rel="stylesheet" href="asset/css/slick.css">
+    <!--    MAIN CSS-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+<body>
+
+
+
+    <!--    HEADER SECTION-->
+    <header class="py-2 py-lg-3">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <div class="logo d-flex align-items-center">
+                    <i class="fa fa-bars d-lg-none" onClick="mobileClick()"></i>
+
+                    <a href="#">
+                        <img src="asset/images/logo/logo.svg" alt="">
+                    </a>
+
+                </div>
+                <div class="menubar d-none d-lg-block">
+                    <ul>
+                        <li class="sub-btn button1">
+                            <a href="#">কোসসমূহ
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+
+                            <div class="sub-menu">
+                                <a href="#">বাংলা</a>
+                                <a href="#">ইংরেজি</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">আপকামিং লাইভ কোর্স</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="head-searchber flex-grow-1">
+                    <form action="#">
+                        <div class="head-searchber-box">
+                            <input type="text" placeholder="আপনার কাঙ্খিত কোসটি সার্চ করুন">
+                            <button>
+                                <i class="fa-regular fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="menubar d-none d-lg-block">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-regular fa-cart-shopping"></i>
+                                ৳ 0
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a href="#">ডেসবোের্ডে লগ-ইন</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <!--    HEADER SECTION END-->
+
+    <!--    MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="mobile-logo mb-3">
+                <a href="#">
+                    <img src="asset/images/logo/logo.svg" alt="mobile-logo">
+                </a>
+                <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+            </div>
+
+
+            <div class="accordion-item custom ">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            About Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Services
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Why Mokhls
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            FAQ
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Help
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Find Broker
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Sign up
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Sign In
+                        </button>
+                    </a>
+                </h2>
+            </div>
+
+            <!--
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        All Category
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Lip Gloss</a></li>
+
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Body Lotion</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Cream</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Garnier</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+-->
+
+
+        </div>
+
+    </div>
+    <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+    <!--    MOBILE MENU END-->
+
+
+    <!--    PAGE HEAD-->
+    <div class="page-header py-5 ">
+        <div class="container">
+            <h6 class="text-white">Dango</h6>
+            <h2 class="text-white" style="max-width: 700px;"> প্রযুক্তি নির্ভরতা বৃদ্ধির সাথে সাথে ডিজাইন সেক্টরে ক্যারিয়ার সুযোগ বিস্তৃত হচ্ছে </h2>
+            <b class="text-white">Md Bokul Islam <b class="px-3">|</b> 28 Mar 2020</b>
+
+        </div>
+    </div>
+    <!--    PAGE HEAD END-->
+
+    <!--    TRAMS CONDATION-->
+    <div class="trams-condation py-5">
+        <div class="container">
+            <h4>ব্যবহার বিধি: </h4>
+            <p>
+                আমাদের সার্ভিস গ্রহণের জন্য আপনাকে নির্ধারিত সকল নিয়মনীতি ও শর্তাবলী মেনে নিতে রাজি থাকতে হবে। যার মধ্যে রয়েছে আমাদের গোপনীয়তা নীতি। আইনগতভাবে এসব শর্তাবলী মেনে চলতে যদি আপনার কোন আপত্তি থাকে, তাহলে আমাদের সার্ভিস গ্রহণে আপনাকে নিরুৎসাহিত করা হচ্ছে।
+            </p>
+            <div class="py-2">
+                <li><i class="fa-solid fa-circle"></i> যোগ্যতা</li>
+                <p>
+                    আমরা শুধুমাত্র ১৩ বা তার বেশি বয়সীদের আমাদের সার্ভিস ব্যবহার করার অনুমতি দেই। তাই আমাদের সার্ভিস নিতে আপনার বয়স কমপক্ষে ১৩ বছর হতে হবে। অ্যাকাউন্টে সাইন-আপ এর মাধ্যমে আপনি নিশ্চিত করছেন যে, আপনার বয়স ১৩ বছর বা তার বেশি।
+                </p>
+            </div>
+            <div class="py-2">
+                <li><i class="fa-solid fa-circle"></i> নিবন্ধন এবং আপনার তথ্য </li>
+                <p>
+                    আমাদের সার্ভিসে অংশ নিতে একটি ইমেইল এড্রেস দিয়ে আপনাকে একটি অ্যাকাউন্ট তৈরি করতে হবে। একটি ইমেইল এড্রেস দিয়ে কেবল একটি-ই অ্যাকাউন্টের নিবন্ধন করতে পারবেন। আপনি নিশ্চিত করছেন যে, নিবন্ধনের সময় যেসব তথ্য প্রদান করেছেন সেগুলো সত্য এবং আপডেটেড। ভুল তথ্য প্রদান এবং ব্রাইটস্কিলের নিয়মনীতির বিরুদ্ধে গেলে কর্তৃপক্ষ আপনার অ্যাকাউন্ট স্থগিত বা স্থায়ীভাবে বন্ধ করার ক্ষমতা রাখে। এই নিবন্ধনের মাধ্যমে আপনি সম্মতি দিচ্ছেন যে, আপনি আপনার অ্যাকাউন্টের পাসওয়ার্ড কাউকে প্রকাশ করবেন না। সেই সঙ্গে আপনার অ্যাকাউন্টের অননুমোদিত ব্যবহার হলে অবিলম্বে আমাদের  অবহিত করবেন। আপনার অ্যাকাউন্টের যাবতীয় কার্যকলাপের জন্য শুধুমাত্র আপনি-ই দায়ী থাকবেন।
+                </p>
+            </div>
+            <div class="py-2">
+                <li><i class="fa-solid fa-circle"></i> ইমেইল যোগাযোগ </li>
+                <p>
+                    প্রমোশনাল অফার, নিউজলেটার, ইভেন্ট প্রচারণা এবং ওয়েবসাইট হালনাগাদ বিষয়ক সর্বশেষ তথ্য পেতে চাইলে নিবন্ধনের সময় ইমেইল এড্রেস দিয়ে সম্মতি জানান।
+                </p>
+            </div>
+             <div class="py-2">
+                <li><i class="fa-solid fa-circle"></i> কনটেন্ট ডিসক্লেইমার </li>
+                <p>
+                    যে কোন কোর্সে ভর্তির আগে কোর্স সম্পর্কে ভালোভাবে জেনে নিন। ভর্তি হওয়ার পর, কোর্সের বিষয়বস্তু সম্পর্কে কোন অভিযোগ গ্রহণ করা হবে না। কিন্তু কোর্সের কোন কনটেন্টের বিশেষ অংশ সম্পর্কে আপনার কোন অনুরোধ কিংবা অভিযোগ থাকলে, আপনি আমাদের ইমেইল বা ফেসবুক পেজের মাধ্যমে জানাতে পারেন। একজন ছাত্র হিসাবে, আপনি আপনার কোর্স সম্পর্কে আপনার প্রশিক্ষকদের কাছে প্রশ্ন জিজ্ঞাসা করতে পারেন। তবে এক্ষেত্রে কোন অপমানজনক এবং অনৈতিক আবদার গ্রহণযোগ্য নয়। একটি কোর্স সম্পন্ন করার জন্য আপনাকে বাধ্যতামূলক কুইজ দিতে হবে। যদি আপনি আমাদের শর্তাবলী লঙ্ঘন করে আপত্তিকর বা কোন বেআইনী কোন কাজ করেন, তাহলে ব্রাইটস্কিলস কোন পূর্ব নোটিশ ছাড়াই আপনার অ্যাকাউন্ট বন্ধ করার অধিকার রাখে।
+                </p>
+            </div>
+            <div class="py-2">
+                <li><i class="fa-solid fa-circle"></i>  কোর্স পাইরেসি </li>
+                <p>
+                    ব্রাইটস্কিলস-এর মালিকানাধীন কোনো কনটেন্ট পুনরায় ব্যবহার করা বা পুনরায় ব্র্যান্ডিং করা যেমন- ভিডিও, ছবি, কনটেন্ট, ডিজাইন, লাইভ সেশন, জুম/মিটিং সেশন, অ্যাসাইনমেন্ট, কুইজ, পড়াশুনার উপকরণ ইত্যাদি পাইরেসি হিসেবে বিবেচিত হবে। এই ক্ষেত্রে ব্রাইটস্কিলস গণপ্রজাতন্ত্রী বাংলাদেশ সরকার কর্তৃক প্রণীত ডিজিটাল নিরাপত্তা আইন - ২০১৮ এর অধীনে আইনী ব্যবস্থা নিতে পারে।
+                </p>
+            </div>
+             <div class="py-2">
+                <li><i class="fa-solid fa-circle"></i>   পেমেন্ট পলিসিি </li>
+                <p>
+                    পেমেন্ট করার আগে অনুগ্রহ করে কোর্সের মূল্য সম্পর্কে নিশ্চিত হয়ে নিন। পেমেন্ট সম্পন্ন করার পর কোন অভিযোগ বিবেচনা করা হবে না। আমরা SSL Commerz (পেমেন্ট গেটওয়ে প্রোভাইডার) এর মাধ্যমে কোর্স পেমেন্ট গ্রহণ করি।
+                </p>
+            </div>
+            <div class="py-2">
+                <li><i class="fa-solid fa-circle"></i>   থার্ড-পার্টি লিংকস, ওয়েবসাইট এবং রিসোর্সেসিি </li>
+                <p>
+                    আমাদের ওয়েবসাইটে থার্ড পার্টির ওয়েবসাইট লিঙ্ক থাকতে পারে যা ব্রাইটস্কিলস-এর মালিকানাধীন বা নিয়ন্ত্রিত নয়। এই ওয়েবসাইট বা প্ল্যাটফর্মগুলির (কোন বিষয়বস্তু, ব্যবহারের শর্তাবলী, বা গোপনীয়তা নীতিসহ) এর উপর আমাদের এর কোন নিয়ন্ত্রণ নেই এবং এর কোন দায়বদ্ধতাও নেই। নিজ দায়িত্বে ঝুঁকি নিয়ে আপনি এ জাতীয় লিঙ্ক বা রিসোর্স ব্যবহার করতে পারেন। আপনি আমাদের ওয়েবসাইটের সাথে লিঙ্ক করতে পারেন, কিন্তু আমাদের ওয়েবসাইটের কোনো পৃষ্ঠা বা অংশের প্রতিলিপি/নকল করবেন না।
+                </p>
+            </div>
+            <div class="py-2">
+                <li><i class="fa-solid fa-circle"></i>   কপিরাইট পলিসি</li>
+                <p>
+                    ওয়েবসাইটের ট্রেডমার্ক, ডিজাইন, কনটেন্ট, লোগো, সার্ভিস মার্কসহ যাবতীয় ব্রাইটস্কিলস- এর সম্পত্তি। ইউজার শুধুমাত্র নিজস্ব এবং অ-বাণিজ্যিক কাজে ব্যবহারের জন্য এই ওয়েবসাইট থেকে কোন তথ্য ডাউনলোড বা প্রিন্ট করতে পারবেন। ব্রাইটস্কিলস এর পূর্ব লিখিত সম্মতি ছাড়া এই ওয়েবসাইট থেকে কোন কনটেন্ট ফ্রেমিং বা রিপাবলিকেশন অথবা বাণিজ্যিক ব্যবহার সম্পূর্ণভাবে নিষিদ্ধ। এর ব্যত্যয় ঘটলে তা অপরাধ হিসাবে গণ্য হবে এবং বাংলাদেশ কপিরাইট আইন, ২০০০ অনুযায়ী ব্যবস্থা নেওয়া হবে।
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!--    TRAMS CONDATION END-->
+
+
+    <!--    PAYMENT SECTION-->
+    <section class="payment-section py-5">
+        <div class="d-flex flex-wrap align-items-center">
+            <div class="p-2">
+                <h6>Pay With</h6>
+            </div>
+            <div class="after-line mx-2"></div>
+            <div class="p-2">
+                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/dbbl.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
+            </div>
+
+            <div class="p-2">
+                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/dbbl.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
+            </div>
+
+            <div class="p-2">
+                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/dbbl.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
+            </div>
+
+            <div class="p-2">
+                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
+            </div>
+            <div class="after-line mx-2"></div>
+            <div class="mx-2">
+                <p>Verifyed By</p>
+                <h5>SSL COMMARZ</h5>
+            </div>
+        </div>
+    </section>
+    <!--    PAYMENT SECTION END-->
+
+
+    <!--    FOOTER-->
+    <footer class="pt-5">
+        <div class="container">
+            <div class="footer-main pb-4">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Company</h6>
+                            <ul>
+                                <li>
+
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Carrer</a>
+                                </li>
+                                <li>
+                                    <a href="#">Press</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Affiliates</a>
+                                </li>
+                                <li>
+                                    <a href="#">Partnerships</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Community</h6>
+                            <ul>
+                                <li>
+
+                                    <a href="#">Teams Plans</a>
+                                </li>
+                                <li>
+                                    <a href="#">Refar A Friend</a>
+                                </li>
+                                <li>
+                                    <a href="#">Limited Membersheep</a>
+                                </li>
+                                <li>
+                                    <a href="#">Scholarships</a>
+                                </li>
+                                <li>
+                                    <a href="#">Free Classes</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Teaching</h6>
+
+                            <ul>
+                                <li>
+
+                                    <a href="#">Become A Teacher</a>
+                                </li>
+                                <li>
+                                    <a href="#">Teacher Help Center</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Mobile</h6>
+
+                            <div class="pb-2">
+                                <a href="#">
+                                    <img src="asset/images/icons/app-store.png" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="asset/images/icons/google-play.png" alt="">
+                                </a>
+                            </div>
+                            <div class="footer-icons pt-3">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f" style="background: #384F83;"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in" style="background: #0089CF;"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube" style="background: #FF3A00;"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright py-4">
+                <a href="javascript:void(0)">@skillshare, Inc. 2022</a>
+                <a href="#">Helps</a>
+                <a href="#">Privacy</a>
+                <a href="#">Teams</a>
+            </div>
+        </div>
+    </footer>
+    <!--    FOOTER END-->
+
+
+
+    <!--    JQUERY GOOGLE HOST-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    BOOSTRAP-->
+
+    <!--    slick slider-->
+    <script src="asset/js/slick.min.js"></script>
+    <!--    boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script>
+        //        MOBILE MENU
+        function mobileClick() {
+            $("#mobile-menu").toggleClass('mobileAdd');
+            $("#mobileOverlay").toggleClass('mobile-overlay');
+        }
+        //        MOBILE MENU END
+
+
+
+        // slick slider
+        $('.lifestyle_slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            dots: true,
+            infinite: false,
+            autoplaySpeed: 2000,
+            arrows: true,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+
+
+        $('.course1_slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            dots: true,
+            infinite: false,
+            autoplaySpeed: 2000,
+            nextArrow: $('.course_next'),
+            prevArrow: $('.course_prev'),
+            arrows: true,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+    </script>
+</body>
+
+</html>

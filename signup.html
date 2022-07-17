@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightSkills</title>
+    <!--    BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+
+    <!--    GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--    SLICK SLICER-->
+    <link rel="stylesheet" href="asset/css/slick-theme.css">
+    <link rel="stylesheet" href="asset/css/slick.css">
+    <!--    MAIN CSS-->
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+</head>
+
+<body>
+
+
+
+    <!--    HEADER SECTION-->
+    <header class="py-2 py-lg-3">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <div class="logo d-flex align-items-center">
+                    <i class="fa fa-bars d-lg-none" onClick="mobileClick()"></i>
+
+                    <a href="#">
+                        <img src="asset/images/logo/logo.svg" alt="">
+                    </a>
+
+                </div>
+                <div class="menubar d-none d-lg-block">
+                    <ul>
+                        <li class="sub-btn button1">
+                            <a href="#">কোসসমূহ
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+
+                            <div class="sub-menu">
+                                <a href="#">বাংলা</a>
+                                <a href="#">ইংরেজি</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">আপকামিং লাইভ কোর্স</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="head-searchber flex-grow-1">
+                    <form action="#">
+                        <div class="head-searchber-box">
+                            <input type="text" placeholder="আপনার কাঙ্খিত কোসটি সার্চ করুন">
+                            <button>
+                                <i class="fa-regular fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="menubar d-none d-lg-block">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-regular fa-cart-shopping"></i>
+                                ৳ 0
+                            </a>
+                        </li>
+                        <li class="button2">
+                            <a href="#">ডেসবোের্ডে লগ-ইন</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+    <!--    HEADER SECTION END-->
+
+
+
+    <!--    MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="mobile-logo mb-3">
+                <a href="#">
+                    <img src="asset/images/logo/logo.svg" alt="mobile-logo">
+                </a>
+                <i id="mobile-cross" class="fa fa-times" onClick="mobileClick()"></i>
+            </div>
+
+
+            <div class="accordion-item custom ">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            About Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Services
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Why Mokhls
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            FAQ
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Help
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Find Broker
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Sign up
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Sign In
+                        </button>
+                    </a>
+                </h2>
+            </div>
+
+            <!--
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        All Category
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Lip Gloss</a></li>
+
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Body Lotion</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Cream</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>Garnier</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+-->
+
+
+        </div>
+
+    </div>
+    <div id="mobileOverlay" class="mobile-overlay" onClick="mobileClick()"></div>
+    <!--    MOBILE MENU END-->
+    
+    <!--    SIGN IN-->
+    <section class="sign-section py-3">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-7">
+                <div class="sign-in-image">
+                    <img src="asset/images/photos/signin.svg" alt="">
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="signin-box">
+                    <a href="#" class="sign-logo">
+                        <img src="asset/images/logo/logo.svg" alt="Logo Image">
+                    </a>
+                    <h2>অ্যাকাউন্ট তৈরি করুন</h2>
+                    <p>
+                        নিচের ফর্মটি পূরণ করে রেজিস্ট্রেশন সম্পন্ন করুন। রেজিস্ট্রেশন করার মাধ্যমে কোর্স আপডেট জানতে পারবেন এবং আপনার পছন্দের কোর্সে এনরোল করতে পারবেন।
+                    </p>
+                    
+                    <form action="#">
+                        <div class="py-2">
+                            <input type="text" placeholder="নাম">
+                        </div>
+                        <div class="py-2">
+                            <input type="text" placeholder=" ইমেইল ">
+                        </div>
+                        <div class="py-2">
+                            <input type="text" placeholder=" মোবাইল ">
+                        </div>
+                        <div class="py-2">
+                            <input type="password" placeholder=" পাসওয়ার্ড ">
+                        </div>
+                        <div class="py-2">
+                            <input type="password" placeholder=" কনফার্ম পাসওয়ার্ড ">
+                        </div>
+                        <div class="py-2">
+                            <button type="submit">সাইন আপ</button>
+                        </div>
+                        <div class="social-login">
+                            <p>অথবা সাইন আপ করুন</p>
+                            <div class="py-3">
+                                <a href="#">
+                                    <svg data-v-079495e1="" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48" style="fill: rgb(0, 0, 0);"><path data-v-079495e1="" fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path> <path data-v-079495e1="" fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path> <path data-v-079495e1="" fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path> <path data-v-079495e1="" fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path></svg>
+                                </a>
+                                <a href="#" class="facebook">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </div>
+                            <p> যদি কোন একাউন্ট থাকে তাহলে <a href="#">সাইন ইন করুন</a> </p>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--    SIGN IN END-->
+    
+    <!--    PARTNER SECTION-->
+    <div class="section partner-section py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4>আমাদের পার্টনারসমূহ</h4>
+            </div>
+            <div class="row pt-5">
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner1.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner2.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner3.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner4.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner5.png" alt="image">
+                    </div>
+                </div>
+                <div class="col-2 pb-3">
+                    <div class="partner-box">
+                        <img src="asset/images/photos/partner6.png" alt="image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--    PARTNER SECTION END-->
+
+    <!--    PAYMENT SECTION-->
+    <section class="payment-section py-5">
+        <div class="d-flex flex-wrap align-items-center">
+            <div class="p-2">
+                <h6>Pay With</h6>
+            </div>
+            <div class="after-line mx-2"></div>
+            <div class="p-2">
+                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/dbbl.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
+            </div>
+
+            <div class="p-2">
+                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/dbbl.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
+            </div>
+
+            <div class="p-2">
+                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/dbbl.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
+            </div>
+
+            <div class="p-2">
+                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
+            </div>
+            <div class="p-2">
+                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
+            </div>
+            <div class="after-line mx-2"></div>
+            <div class="mx-2">
+                <p>Verifyed By</p>
+                <h5>SSL COMMARZ</h5>
+            </div>
+        </div>
+    </section>
+    <!--    PAYMENT SECTION END-->
+
+
+
+
+    <!--    FOOTER-->
+    <footer class="pt-5">
+        <div class="container">
+            <div class="footer-main pb-4">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Company</h6>
+                            <ul>
+                                <li>
+
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Carrer</a>
+                                </li>
+                                <li>
+                                    <a href="#">Press</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Affiliates</a>
+                                </li>
+                                <li>
+                                    <a href="#">Partnerships</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Community</h6>
+                            <ul>
+                                <li>
+
+                                    <a href="#">Teams Plans</a>
+                                </li>
+                                <li>
+                                    <a href="#">Refar A Friend</a>
+                                </li>
+                                <li>
+                                    <a href="#">Limited Membersheep</a>
+                                </li>
+                                <li>
+                                    <a href="#">Scholarships</a>
+                                </li>
+                                <li>
+                                    <a href="#">Free Classes</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Teaching</h6>
+
+                            <ul>
+                                <li>
+
+                                    <a href="#">Become A Teacher</a>
+                                </li>
+                                <li>
+                                    <a href="#">Teacher Help Center</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="footer-head">
+                            <h6>Mobile</h6>
+
+                            <div class="pb-2">
+                                <a href="#">
+                                    <img src="asset/images/icons/app-store.png" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="asset/images/icons/google-play.png" alt="">
+                                </a>
+                            </div>
+                            <div class="footer-icons pt-3">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f" style="background: #384F83;"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in" style="background: #0089CF;"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube" style="background: #FF3A00;"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright py-4">
+                <a href="javascript:void(0)">@skillshare, Inc. 2022</a>
+                <a href="#">Helps</a>
+                <a href="#">Privacy</a>
+                <a href="#">Teams</a>
+            </div>
+        </div>
+    </footer>
+    <!--    FOOTER END-->
+
+
+
+    <!--    JQUERY GOOGLE HOST-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--    BOOSTRAP-->
+
+    <!--    slick slider-->
+    <script src="asset/js/slick.min.js"></script>
+    <!--    boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script>
+        //        MOBILE MENU
+        function mobileClick() {
+            $("#mobile-menu").toggleClass('mobileAdd');
+            $("#mobileOverlay").toggleClass('mobile-overlay');
+        }
+        //        MOBILE MENU END
+
+
+
+        // slick slider
+        $('.lifestyle_slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            dots: true,
+            infinite: false,
+            autoplaySpeed: 2000,
+            arrows: true,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+
+
+        $('.course1_slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            dots: true,
+            infinite: false,
+            autoplaySpeed: 2000,
+            nextArrow: $('.course_next'),
+            prevArrow: $('.course_prev'),
+            arrows: true,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+
+    </script>
+</body>
+
+</html>
