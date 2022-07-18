@@ -248,6 +248,23 @@
                             <h6>Question 5:</h6>
                             <p>what is the Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quis.</p>
                             
+                            <label for="1">
+                                <input type="radio" name="question" id="1">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </label>
+                            <label for="2">
+                                <input type="radio" name="question" id="2">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </label>
+                             <label for="3">
+                                <input type="radio" name="question" id="3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </label>
+                            <label for="4">
+                                <input type="radio" name="question" id="4">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </label>
+                            
                             
                         </div>
                         </div>
@@ -260,7 +277,7 @@
                                 <a href="#" class="skip-quiz">Skip Question</a>
                                 <a href="#" class="resume-quiz">Check Question</a>
                                 <i class="fa-solid fa-gear"></i>
-                                <i class="fa-solid fa-arrow-up-right-and-arrow-down-left-from-center"></i>
+                                <i class="fa-solid fa-arrow-up-right-and-arrow-down-left-from-center" onClick="QuestionZoom()" ></i>
                               
                             </div>
                         
@@ -1006,6 +1023,11 @@
         function mobileClick() {
             $("#mobile-menu").toggleClass('mobileAdd');
             $("#mobileOverlay").toggleClass('mobile-overlay');
+        }
+        
+        function QuestionZoom() {
+            
+            $(".quiz-main-box").toggleClass('quiz-click-add');
         }
         //        MOBILE MENU END
 
