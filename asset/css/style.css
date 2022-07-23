@@ -275,7 +275,7 @@ header .fa-bars {
 .custom.accordion-item .accordion-button {
     display: block;
     width: 100%;
-    padding: 0;
+    padding: 10px;
 }
 
 .accordion-button.custom i {
@@ -735,6 +735,9 @@ header .fa-bars {
     font-size: 13px;
     color: rgb(131, 131, 131);
 }
+.course-btn-div{
+    display: inline-block;
+}
 
 .course-box .sell-price {
     font-size: 13px;
@@ -923,6 +926,7 @@ footer {
     color: var(--pc);
     border: 1px solid var(--wc);
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .page-header p {
@@ -2567,6 +2571,8 @@ th {
     color: var(--wc);
     padding: 8px 15px;
     border-radius: 5px;
+    display: flex;
+    width: 137px;
 }
 
 .blog-box {
@@ -3078,7 +3084,9 @@ th {
 }
 .lession-complete-box .progress-bar{
     background: var(--sc);
+    
 }
+
 .lession-complete-box{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
