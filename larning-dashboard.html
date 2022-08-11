@@ -233,25 +233,25 @@
     <section class="course-count py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 pb-4">
+                <div class="col-6 col-sm-6 col-lg-3 pb-4">
                     <div class="course-count-box" style="background-image: linear-gradient(to right, rgba(255, 143, 39, 0.3), rgba(255, 155, 62, 0.74))">
                         <p>এনরোলকৃত মোট কোর্সের সংখ্যা</p>
                         <span>১</span>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 pb-4">
+                <div class="col-6 col-sm-6 col-lg-3 pb-4">
                     <div class="course-count-box" style="background-image: linear-gradient(to right, rgba(247, 196, 195, 0.36), #F7C4C3)">
                         <p>এনরোলকৃত মোট কোর্সের সংখ্যা</p>
                         <span>১</span>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 pb-4">
+                <div class="col-6 col-sm-6 col-lg-3 pb-4">
                     <div class="course-count-box" style="background-image: linear-gradient(to right, rgba(163, 212, 226, 0.29), #A3D4E2)">
                         <p>এনরোলকৃত মোট কোর্সের সংখ্যা</p>
                         <span>১</span>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 pb-4">
+                <div class="col-6 col-sm-6 col-lg-3 pb-4">
                     <div class="course-count-box" style="background-image: linear-gradient(to right, rgba(198, 223, 168, 0.42), #C6DFA8)">
                         <p>এনরোলকৃত মোট কোর্সের সংখ্যা</p>
                         <span>১</span>
@@ -264,16 +264,23 @@
 
     <section class="learning-btn-sec py-4">
         <div class="container">
-            <a href="#" class="learning-btn">মাই লার্নিং</a>
-            <a href="#" class="certificate-btn"> সার্টিফিকেট </a>
-        </div>
-    </section>
-
-
-    <!--    LESSION COMPLETE SECTION-->
-    <section class="lession-complete">
-        <div class="container">
-            <div class="pt-4">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                        <a href="#" class="certificate-btn">মাই লার্নিং</a>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                        <a href="#" class="certificate-btn"> সার্টিফিকেট </a>
+<!--                        <a href="#" class="certificate-btn"> সার্টিফিকেট </a>-->
+                    </button>
+                </li>
+               
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="pt-4">
                 <div class="lession-complete-head">
                     <h4>আপনি যে কোর্সগুলো সম্পন্ন করেছেন</h4>
                 </div>
@@ -285,7 +292,7 @@
                             </a>
 
                             <div class="px-2">
-                                <h6>Adobe Photoshop Master Course</h6>
+                                <h6><a href="#">Adobe Photoshop Master Course</a></h6>
                                 <span>লেসন ২</span>
                                 <h5>Welcome And History</h5>
                                 <span><i class="fa-regular fa-play"></i> 1 Min</span>
@@ -304,7 +311,7 @@
                             </a>
 
                             <div class="px-2">
-                                <h6>Adobe Photoshop Master Course</h6>
+                                <h6><a href="#">Adobe Photoshop Master Course</a></h6>
                                 <span>লেসন ২</span>
                                 <h5>Welcome And History</h5>
                                 <span><i class="fa-regular fa-play"></i> 1 Min</span>
@@ -323,7 +330,7 @@
                             </a>
 
                             <div class="px-2">
-                                <h6>Adobe Photoshop Master Course</h6>
+                                <h6><a href="#">Adobe Photoshop Master Course</a></h6>
                                 <span>লেসন ২</span>
                                 <h5>Welcome And History</h5>
                                 <span><i class="fa-regular fa-play"></i> 1 Min</span>
@@ -338,11 +345,34 @@
 
                 </div>
             </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <div class="review-box-round">
+                        <div class="complete-message">
+                        <i class="fa-regular fa-check"></i>
+                        <h6>অভিনন্দন আপনি সফলভাবে র্কোস সম্পন্ন করেছেন</h6>
+                        <p>
+                            আপনার সার্টিফিকেট যে কোনো সময় ডাউনলোড করতে পারবেন
+                        </p>
+                        <a href="#" class="custom-btn">সার্টিফিকেট দেখুন</a>
+                    </div>
+                </div>
+               
+            </div>
+          
+        </div>
+    </section>
+
+
+    <!--    LESSION COMPLETE SECTION-->
+    <section class="lession-complete">
+        <div class="container">
+            
             <div class="pt-4">
                 <div class="lession-complete-head">
                     <h4>আপনার জন্য রেকমেন্ডেট কোর্সসমূহ</h4>
                 </div>
-                                <div class="row mt-4">
+                <div class="row mt-4">
                     <div class="col-12 col-md-6 col-lg-4 pb-4">
                         <div class="lession-complete-box">
                             <a href="#">
@@ -350,7 +380,7 @@
                             </a>
 
                             <div class="px-2">
-                                <h6>Adobe Photoshop Master Course</h6>
+                                <h6><a href="#">Adobe Photoshop Master Course</a></h6>
                                 <span>লেসন ২</span>
                                 <h5>Welcome And History</h5>
                                 <span><i class="fa-regular fa-play"></i> 1 Min</span>
@@ -369,7 +399,7 @@
                             </a>
 
                             <div class="px-2">
-                                <h6>Adobe Photoshop Master Course</h6>
+                                <h6><a href="#">Adobe Photoshop Master Course</a></h6>
                                 <span>লেসন ২</span>
                                 <h5>Welcome And History</h5>
                                 <span><i class="fa-regular fa-play"></i> 1 Min</span>
@@ -388,7 +418,7 @@
                             </a>
 
                             <div class="px-2">
-                                <h6>Adobe Photoshop Master Course</h6>
+                                <h6><a href="#">Adobe Photoshop Master Course</a></h6>
                                 <span>লেসন ২</span>
                                 <h5>Welcome And History</h5>
                                 <span><i class="fa-regular fa-play"></i> 1 Min</span>
@@ -452,68 +482,9 @@
     <!--    PARTNER SECTION END-->
 
     <!--    PAYMENT SECTION-->
-    <section class="payment-section py-5">
-        <div class="d-flex flex-wrap align-items-center">
-            <div class="p-2">
-                <h6>Pay With</h6>
-            </div>
-            <div class="after-line mx-2"></div>
-            <div class="p-2">
-                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/dbbl.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-
-            <div class="p-2">
-                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/dbbl.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-
-            <div class="p-2">
-                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/dbbl.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-
-            <div class="p-2">
-                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-            <div class="after-line mx-2"></div>
-            <div class="mx-2">
-                <p>Verifyed By</p>
-                <h5>SSL COMMARZ</h5>
-            </div>
+    <section class="payment-section py-4">
+        <div class="container-fluid">
+            <img src="asset/images/photos/payment.jpeg" alt="">
         </div>
     </section>
     <!--    PAYMENT SECTION END-->

@@ -309,7 +309,8 @@
                             <h4>Study Plan</h4>
                             <div class="live-study-plan-box">
                                 <div class="cariculam-box pt-4">
-                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion accordion-flush accordion_main" id="accordionFlushExample">
+                                       
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="flush-headingOne">
                                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -370,6 +371,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -510,69 +512,10 @@
     </div>
     <!--    PARTNER SECTION END-->
 
-    <!--    PAYMENT SECTION-->
-    <section class="payment-section py-5">
-        <div class="d-flex flex-wrap align-items-center">
-            <div class="p-2">
-                <h6>Pay With</h6>
-            </div>
-            <div class="after-line mx-2"></div>
-            <div class="p-2">
-                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/dbbl.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-
-            <div class="p-2">
-                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/dbbl.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-
-            <div class="p-2">
-                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/dbbl.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-
-            <div class="p-2">
-                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-            <div class="after-line mx-2"></div>
-            <div class="mx-2">
-                <p>Verifyed By</p>
-                <h5>SSL COMMARZ</h5>
-            </div>
+        <!--    PAYMENT SECTION-->
+    <section class="payment-section py-4">
+        <div class="container-fluid">
+            <img src="asset/images/photos/payment.jpeg" alt="">
         </div>
     </section>
     <!--    PAYMENT SECTION END-->
@@ -708,6 +651,8 @@
             $("#mobileOverlay").toggleClass('mobile-overlay');
         }
         //        MOBILE MENU END
+        
+        console.log(document.querySelector(".accordion_main").children)
 
 
 

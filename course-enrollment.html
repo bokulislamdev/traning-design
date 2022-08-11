@@ -241,10 +241,10 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-8">
+                <div class="col-12 col-lg-7 col-xl-8">
                     <div class="enroll-video">
-                        <video controls style="width: 100%; height: auto">
-                            <source src="asset/images/videos/video.mp4" type="video/mp4">
+                        <video controls autoplay style="width: 100%; height: auto" id="videoidsrc">
+                            <source src="asset/video/1.mp4" type="video/mp4">
 
                             Your browser does not support the video tag.
                         </video>
@@ -543,7 +543,7 @@
                                             <div class="replay-form">
                                                 <form action="#">
                                                     <textarea name="" id="" cols="30" rows="10"></textarea>
-                                                    
+
                                                     <button type="submit" class="custom-btn mt-2">রিপ্লাই</button>
                                                 </form>
                                             </div>
@@ -582,13 +582,13 @@
                                                 <a href="#">Replay <i class="fa-regular fa-reply"></i></a>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="see-more py-3">
                                             <button>See More</button>
                                         </div>
 
                                     </div>
-                                    
+
                                     <div class="ask-new-question pt-4">
                                         <h4>Ask A New Question</h4>
                                         <form action="#">
@@ -613,8 +613,8 @@
                     </div>
 
                 </div>
-                <div class="col-4">
-                    <div class="enroll-right">
+                <div class="col-12 col-lg-5 col-xl-4 mt-5 mt-lg-0">
+                    <div class="enroll-right into-box">
                         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="pills-lession-tab" data-bs-toggle="pill" data-bs-target="#pills-lession" type="button" role="tab" aria-controls="pills-lession" aria-selected="true">লেসন</button>
@@ -625,7 +625,7 @@
 
                         </ul>
 
-                        <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-content view-less-box" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-lession" role="tabpanel" aria-labelledby="pills-lession-tab" tabindex="0">
                                 <div class="cariculam-box pt-4">
                                     <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -639,27 +639,138 @@
                                             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample" style="">
                                                 <div class="accordion-body cariculam-accordion-body">
                                                     <ul>
-                                                        <div class="d-flex py-2 align-items-center">
-                                                            <i class="fa-solid fa-circle-play"></i>
-                                                            <li>
-                                                                ১। Introducing Vector Graphics
+                                                        <div class="py-4">
+                                                            <li class="d-flex align-items-start">
+                                                                <i class="fa-solid fa-circle-play"></i>
+                                                                <a href="#" onClick="videoOn('asset/video/1.mp4')">
+                                                                    ১। Introducing Vector Graphics
+                                                                </a>
                                                             </li>
+
+                                                            <div class="btn-group border" style="float: right;">
+                                                                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="fa-solid fa-folder-open"></i> Resources
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                edit_from_blade.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                route.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                recordsController.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
                                                         </div>
 
-                                                        <div class="d-flex py-2 align-items-center">
-                                                            <i class="fa-solid fa-circle-play"></i>
-                                                            <li>
-
-                                                                ২। Object Shape creation on using basic shapes and pen tool
+                                                        <div class="py-4">
+                                                            <li class="d-flex align-items-start">
+                                                                <i class="fa-solid fa-circle-play"></i>
+                                                                <a href="#" onClick="videoOn('asset/video/2.mp4')">
+                                                                    ১। Introducing Vector Graphics
+                                                                </a>
                                                             </li>
-                                                        </div>
-                                                        <div class="d-flex py-2 align-items-center">
-                                                            <i class="fa-solid fa-circle-play"></i>
-                                                            <li>
 
-                                                                ৩। Fill, Stroke and Applying Color
-                                                            </li>
+                                                            <div class="btn-group border" style="float: right;">
+                                                                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="fa-solid fa-folder-open"></i> Resources
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                edit_from_blade.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                route.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                recordsController.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
                                                         </div>
+
+                                                        <div class="py-4">
+                                                            <li class="d-flex align-items-start">
+                                                                <i class="fa-solid fa-circle-play"></i>
+                                                                <a href="#" onClick="videoOn('asset/video/3.mp4')">
+                                                                    ১। Introducing Vector Graphics
+                                                                </a>
+                                                            </li>
+
+                                                            <div class="btn-group border" style="float: right;">
+                                                                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="fa-solid fa-folder-open"></i> Resources
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                edit_from_blade.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                route.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                recordsController.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
+                                                        </div>
+
+
+
+
                                                     </ul>
                                                 </div>
                                             </div>
@@ -674,26 +785,133 @@
                                             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                                 <div class="accordion-body cariculam-accordion-body">
                                                     <ul>
-                                                        <div class="d-flex py-2 align-items-center">
-                                                            <i class="fa-solid fa-circle-play"></i>
-                                                            <li>
-                                                                ১। Introducing Vector Graphics
+                                                        <div class="py-4">
+                                                            <li class="d-flex align-items-start">
+                                                                <i class="fa-solid fa-circle-play"></i>
+                                                                <a href="#" onClick="videoOn('asset/video/1.mp4')">
+                                                                    ১। Introducing Vector Graphics
+                                                                </a>
                                                             </li>
+
+                                                            <div class="btn-group border" style="float: right;">
+                                                                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="fa-solid fa-folder-open"></i> Resources
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                edit_from_blade.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                route.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                recordsController.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
                                                         </div>
 
-                                                        <div class="d-flex py-2 align-items-center">
-                                                            <i class="fa-solid fa-circle-play"></i>
-                                                            <li>
-
-                                                                ২। Object Shape creation on using basic shapes and pen tool
+                                                        <div class="py-4">
+                                                            <li class="d-flex align-items-start">
+                                                                <i class="fa-solid fa-circle-play"></i>
+                                                                <a href="#" onClick="videoOn('asset/video/2.mp4')">
+                                                                    ১। Introducing Vector Graphics
+                                                                </a>
                                                             </li>
+
+                                                            <div class="btn-group border" style="float: right;">
+                                                                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="fa-solid fa-folder-open"></i> Resources
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                edit_from_blade.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                route.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                recordsController.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
                                                         </div>
-                                                        <div class="d-flex py-2 align-items-center">
-                                                            <i class="fa-solid fa-circle-play"></i>
-                                                            <li>
 
-                                                                ৩। Fill, Stroke and Applying Color
+                                                        <div class="py-4">
+                                                            <li class="d-flex align-items-start">
+                                                                <i class="fa-solid fa-circle-play"></i>
+                                                                <a href="#" onClick="videoOn('asset/video/3.mp4')">
+                                                                    ১। Introducing Vector Graphics
+                                                                </a>
                                                             </li>
+
+                                                            <div class="btn-group border" style="float: right;">
+                                                                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="fa-solid fa-folder-open"></i> Resources
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                edit_from_blade.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                route.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                recordsController.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
                                                         </div>
                                                     </ul>
                                                 </div>
@@ -709,36 +927,151 @@
                                             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                                 <div class="accordion-body cariculam-accordion-body">
                                                     <ul>
-                                                        <div class="d-flex py-2 align-items-center">
-                                                            <i class="fa-solid fa-circle-play"></i>
-                                                            <li>
-                                                                ১। Introducing Vector Graphics
+
+                                                        <div class="py-4">
+                                                            <li class="d-flex align-items-start">
+                                                                <i class="fa-solid fa-circle-play"></i>
+                                                                <a href="#" onClick="videoOn('asset/video/1.mp4')">
+                                                                    ১। Introducing Vector Graphics
+                                                                </a>
                                                             </li>
+
+                                                            <div class="btn-group border" style="float: right;">
+                                                                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="fa-solid fa-folder-open"></i> Resources
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                edit_from_blade.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                route.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                recordsController.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
                                                         </div>
 
-                                                        <div class="d-flex py-2 align-items-center">
-                                                            <i class="fa-solid fa-circle-play"></i>
-                                                            <li>
-
-                                                                ২। Object Shape creation on using basic shapes and pen tool
+                                                        <div class="py-4">
+                                                            <li class="d-flex align-items-start">
+                                                                <i class="fa-solid fa-circle-play"></i>
+                                                                <a href="#" onClick="videoOn('asset/video/2.mp4')">
+                                                                    ১। Introducing Vector Graphics
+                                                                </a>
                                                             </li>
+
+                                                            <div class="btn-group border" style="float: right;">
+                                                                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="fa-solid fa-folder-open"></i> Resources
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                edit_from_blade.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                route.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                recordsController.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
                                                         </div>
-                                                        <div class="d-flex py-2 align-items-center">
-                                                            <i class="fa-solid fa-circle-play"></i>
-                                                            <li>
 
-                                                                ৩। Fill, Stroke and Applying Color
+                                                        <div class="py-4">
+                                                            <li class="d-flex align-items-start">
+                                                                <i class="fa-solid fa-circle-play"></i>
+                                                                <a href="#" onClick="videoOn('asset/video/3.mp4')">
+                                                                    ১। Introducing Vector Graphics
+                                                                </a>
                                                             </li>
+
+                                                            <div class="btn-group border" style="float: right;">
+                                                                <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <i class="fa-solid fa-folder-open"></i> Resources
+                                                                </button>
+                                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                edit_from_blade.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                route.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+                                                                    <li>
+                                                                        <button class="dropdown-item p-2" type="button">
+                                                                            <a href="#">
+                                                                                <i class="fa-solid fa-file-arrow-down"></i>
+                                                                                recordsController.php.pdf
+                                                                            </a>
+                                                                        </button>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+
                                                         </div>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+
                                 </div>
+
                             </div>
                             <div class="tab-pane fade" id="pills-certificate" role="tabpanel" aria-labelledby="pills-certificate-tab" tabindex="0">...</div>
 
+                        </div>
+                        <div class="view-less">
+                            <a href="javascript:void(0)" class="view-more" onClick="viewlesstoggle()">View more<i class="fa-solid fa-angle-down"></i></a>
+                            <a href="javascript:void(0)" class="less-more" onclick="viewmoretoggle()">Less more<i class="fa-solid fa-angle-up"></i></a>
                         </div>
                     </div>
                 </div>
@@ -746,6 +1079,32 @@
         </div>
     </section>
     <!--    COURSE ENROLL END-->
+
+    <!--    VIDEO OVERLAY-->
+    <!--
+    <section class="video-section-overlay" id="video-section-overlay">
+        <div class="container py-5">
+            <div class="video-box-overlay-main">
+                <div class="video-over-head pb-5">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <p>Course Preview</p>
+                        <i class="fa fa-times" onClick="videoClose()"></i>
+                    </div>
+                    <h4>The Complete 2022 Web Development Bootcamp</h4>
+
+                </div>
+                <div class="video-box-overlay">
+                    <video width="100%" height="auto" controls id="videoidsrc">
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+            </div>
+        </div>
+    </section>
+-->
+    <!--    VIDEO OVERLAY END-->
 
 
     <!--    PARTNER SECTION-->
@@ -792,68 +1151,9 @@
     <!--    PARTNER SECTION END-->
 
     <!--    PAYMENT SECTION-->
-    <section class="payment-section py-5">
-        <div class="d-flex flex-wrap align-items-center">
-            <div class="p-2">
-                <h6>Pay With</h6>
-            </div>
-            <div class="after-line mx-2"></div>
-            <div class="p-2">
-                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/dbbl.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-
-            <div class="p-2">
-                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/dbbl.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-
-            <div class="p-2">
-                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Bkash-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/dbbl.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/islami-bank-bangladesh-ltd-logo.png" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-
-            <div class="p-2">
-                <img src="asset/images/payments/visa-logo.jpg" alt="logo">
-            </div>
-            <div class="p-2">
-                <img src="asset/images/payments/Mastercard-logo.svg.png" alt="logo">
-            </div>
-            <div class="after-line mx-2"></div>
-            <div class="mx-2">
-                <p>Verifyed By</p>
-                <h5>SSL COMMARZ</h5>
-            </div>
+    <section class="payment-section py-4">
+        <div class="container-fluid">
+            <img src="asset/images/photos/payment.jpeg" alt="">
         </div>
     </section>
     <!--    PAYMENT SECTION END-->
@@ -991,6 +1291,32 @@
             $("#mobileOverlay").toggleClass('mobile-overlay');
         }
         //        MOBILE MENU END
+
+        function viewlesstoggle() {
+            $(".view-less-box").addClass("h-100");
+            $('.less-more').show();
+            $('.view-more').hide();
+        }
+
+        function viewmoretoggle() {
+            $(".view-less-box").removeClass("h-100");
+            $('.less-more').hide();
+            $('.view-more').show();
+        }
+
+        function videoOn(imagesource) {
+            //            $("#video-section-overlay").show();
+            $("#videoidsrc").attr("src", imagesource);
+
+
+        }
+
+        function videoClose() {
+            $("#video-section-overlay").hide();
+            $("#videoidsrc").attr("src", "#");
+
+
+        }
 
 
 
